@@ -1,0 +1,13 @@
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\EMPRESA.mdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Empresa_quitadas restricciones.accdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.exe.config
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.exe
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.pdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form1.resources
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Padre.resources
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.exe
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.pdb
