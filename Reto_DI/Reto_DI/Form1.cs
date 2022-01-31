@@ -126,6 +126,7 @@ namespace Reto_DI
 
         private void comboInicial_SelectedIndexChanged(object sender, EventArgs e)
         {
+            comboFinal.Items.Clear();
             String fecha = comboInicial.SelectedItem.ToString();
             sql = "SELECT DISTINCT Fecha FROM Facturas WHERE Fecha > '" + fecha + "'";
             SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
@@ -173,7 +174,6 @@ namespace Reto_DI
                 }
             }
             MessageBox.Show(acum);
-
             Conexion.CerrarConexion();
         }
     }

@@ -99,6 +99,7 @@ namespace Reto_DI
             this.Name = "Padre";
             this.Text = "Padre";
             this.Load += new System.EventHandler(this.Padre_Load);
+            this.MdiChildActivate += new System.EventHandler(this.Padre_MdiChildActivate);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

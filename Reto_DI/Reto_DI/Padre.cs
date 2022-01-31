@@ -55,5 +55,10 @@ namespace Reto_DI
             f1.Show();
             f1.Activate();
         }
+
+        private void Padre_MdiChildActivate(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
