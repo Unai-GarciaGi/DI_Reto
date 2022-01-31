@@ -154,5 +154,27 @@ namespace Reto_DI
                 Conexion.CerrarConexion();
             }
         }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            sql = "SELECT NombCli FROM Clientes";
+            SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
+            Conexion.AbrirConexion();
+            SqlDataReader dr = cmd.ExecuteReader();
+            String acum = "";
+            int x = 0;
+            while (dr.Read())
+            {
+                x++;
+                acum = acum + x + " - " + dr.GetString(0) + Environment.NewLine;
+                if(x % 25 == 0){
+                    MessageBox.Show(acum);
+                    acum = "";
+                }
+            }
+            MessageBox.Show(acum);
+
+            Conexion.CerrarConexion();
+        }
     }
 }

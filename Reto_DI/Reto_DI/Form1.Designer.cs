@@ -54,6 +54,8 @@ namespace Reto_DI
             this.label12 = new System.Windows.Forms.Label();
             this.comboInicial = new System.Windows.Forms.ComboBox();
             this.comboFinal = new System.Windows.Forms.ComboBox();
+            this.btnClientes = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -228,7 +230,7 @@ namespace Reto_DI
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(271, 124);
+            this.label10.Location = new System.Drawing.Point(271, 126);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(83, 25);
             this.label10.TabIndex = 18;
@@ -237,7 +239,7 @@ namespace Reto_DI
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(360, 128);
+            this.comboBox1.Location = new System.Drawing.Point(360, 130);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 19;
@@ -289,11 +291,33 @@ namespace Reto_DI
             this.comboFinal.Size = new System.Drawing.Size(121, 21);
             this.comboFinal.TabIndex = 24;
             // 
+            // btnClientes
+            // 
+            this.btnClientes.Location = new System.Drawing.Point(190, 197);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(75, 23);
+            this.btnClientes.TabIndex = 26;
+            this.btnClientes.Text = "Visualizar";
+            this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(12, 193);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(90, 25);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "Clientes";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 555);
+            this.Controls.Add(this.btnClientes);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.comboFinal);
             this.Controls.Add(this.comboInicial);
             this.Controls.Add(this.label12);
@@ -355,6 +379,8 @@ namespace Reto_DI
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox comboInicial;
         private System.Windows.Forms.ComboBox comboFinal;
+        private System.Windows.Forms.Button btnClientes;
+        private System.Windows.Forms.Label label13;
     }
 }
 
