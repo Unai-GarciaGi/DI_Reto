@@ -11,3 +11,4 @@ C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.cspr
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.exe
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.pdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form2.resources
