@@ -126,26 +126,48 @@ namespace Reto_DI
 
         private void comboInicial_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboFinal.Items.Clear();
             String fecha = comboInicial.SelectedItem.ToString();
-            sql = "SELECT DISTINCT Fecha FROM Facturas WHERE Fecha > '" + fecha + "'";
-            SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
-            Conexion.AbrirConexion();
-            SqlDataReader dr = cmd.ExecuteReader();
-            while (dr.Read())
+            comboFinal.Items.Clear();
+            comboFinal.SelectedItem = fecha;
+            DateTime fechaDT = Convert.ToDateTime(fecha);
+            try
             {
-                comboFinal.Items.Add(dr.GetDateTime(0).ToShortDateString());
+                sql = "SELECT DISTINCT Fecha FROM Facturas WHERE Fecha > " + fecha;
+                SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
+                Conexion.AbrirConexion();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    DateTime drFecha = dr.GetDateTime(0);
+                    if (drFecha > fechaDT)
+                    {
+                        comboFinal.Items.Add(drFecha);
+                    }
+                }
+                Conexion.CerrarConexion();
             }
-            Conexion.CerrarConexion();
+            catch(Exception ex)
+            {
+                Console.WriteLine(fecha + "    " + fechaDT);
+                Console.WriteLine(ex.Message);
+                Conexion.CerrarConexion();
+            }
+            
         }
 
         private void btnFacturas_Click(object sender, EventArgs e)
         {
-            String f1 = comboInicial.Text;
-            String f2 = comboFinal.Text;
-            if (!f1.Equals("") && !f2.Equals(""))
+            String f1 = comboInicial.SelectedItem.ToString();
+            String f2 = null;
+            if(comboFinal.SelectedItem != null)
             {
-                sql = "SELECT * FROM Facturas WHERE Fecha BETWEEN '" + f1 + "' AND '" + f2 + "'";
+                f2 = comboFinal.SelectedItem.ToString();
+            }
+            //ESTABA DANDO ERROR PORQUE SQL SERVER ESTABA COGIENDO LAS FECHAS COMO FECHAS AMERICANAS AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            if (!f1.Equals("") && f2 != null && !f2.Equals(""))
+            {
+                Console.WriteLine(f1 + "   " + f2);
+                sql = "SELECT * FROM Facturas WHERE Fecha BETWEEN CONVERT(datetime, '" + f1 + "',103) AND CONVERT(datetime, '" + f2 + "',103)";
                 SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
                 Conexion.AbrirConexion();
                 SqlDataAdapter das = new SqlDataAdapter(cmd);

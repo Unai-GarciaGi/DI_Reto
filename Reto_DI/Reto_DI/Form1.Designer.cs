@@ -150,7 +150,7 @@ namespace Reto_DI
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 170);
+            this.label5.Location = new System.Drawing.Point(17, 248);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 13);
             this.label5.TabIndex = 9;

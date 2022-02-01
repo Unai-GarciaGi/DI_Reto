@@ -12,3 +12,18 @@ C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.cspr
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.exe
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.pdb
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form2.resources
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\bin\Debug\EMPRESA.mdb
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Empresa_quitadas restricciones.accdb
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.exe.config
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.exe
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Reto_DI.pdb
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.AssemblyReference.cache
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.SuggestedBindingRedirects.cache
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form1.resources
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form2.resources
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Padre.resources
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Properties.Resources.resources
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.GenerateResource.cache
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.CoreCompileInputs.cache
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.exe
+L:\DI-SGE\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.pdb

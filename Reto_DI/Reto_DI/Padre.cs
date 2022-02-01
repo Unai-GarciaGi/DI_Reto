@@ -51,9 +51,9 @@ namespace Reto_DI
 
         private void formulario1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Bounds = f1.Bounds;
             f1.Show();
             f1.Activate();
+            this.Bounds = f1.Bounds;
         }
 
         private void Padre_MdiChildActivate(object sender, EventArgs e)
