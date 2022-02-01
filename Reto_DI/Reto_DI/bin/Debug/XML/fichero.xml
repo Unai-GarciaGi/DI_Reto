@@ -1,0 +1,219 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <CodVend>1</CodVend>
+    <NombVen>ANGEL BAENA MORALES</NombVen>
+    <DNI>26588955</DNI>
+    <DirecVen>LA LUNA 2, 4º</DirecVen>
+    <Telefono>913235568</Telefono>
+    <FecAlta>2004-10-10T00:00:00+02:00</FecAlta>
+    <Salario>900</Salario>
+    <Comisión>10</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>2</CodVend>
+    <NombVen>NURIA NUÑEZ JURADO</NombVen>
+    <DNI>26558936</DNI>
+    <DirecVen>ALMERIA 7</DirecVen>
+    <Telefono>913270012</Telefono>
+    <FecAlta>2004-11-07T00:00:00+01:00</FecAlta>
+    <Salario>1100</Salario>
+    <Comisión>10</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>3</CodVend>
+    <NombVen>ROSA COBO GARCIA</NombVen>
+    <DNI>26897656</DNI>
+    <DirecVen>OLIVO 4, 5º</DirecVen>
+    <Telefono>913224578</Telefono>
+    <FecAlta>2004-12-14T00:00:00+01:00</FecAlta>
+    <Salario>900</Salario>
+    <Comisión>10</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>4</CodVend>
+    <NombVen>MIGUEL ARMAS RUIZ</NombVen>
+    <DNI>28565225</DNI>
+    <DirecVen>CAÑAMAQUE 12</DirecVen>
+    <Telefono>913232367</Telefono>
+    <FecAlta>2005-01-20T00:00:00+01:00</FecAlta>
+    <Salario>900</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>5</CodVend>
+    <NombVen>ANTONIO LOPEZ CARMONA</NombVen>
+    <DNI>23106595</DNI>
+    <DirecVen>ALAMOS 23, 2ºB</DirecVen>
+    <Telefono>913231212</Telefono>
+    <FecAlta>2005-02-01T00:00:00+01:00</FecAlta>
+    <Salario>850</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>6</CodVend>
+    <NombVen>SALVADOR ORTEGA RUS</NombVen>
+    <DNI>27501459</DNI>
+    <DirecVen>CERON 3</DirecVen>
+    <Telefono>913224451</Telefono>
+    <FecAlta>2005-03-18T00:00:00+01:00</FecAlta>
+    <Salario>800</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>7</CodVend>
+    <NombVen>MARIA MARMOL LOPEZ</NombVen>
+    <DNI>27005559</DNI>
+    <DirecVen>AV. MADRID 9, 7</DirecVen>
+    <Telefono>913270765</Telefono>
+    <FecAlta>2005-05-05T00:00:00+02:00</FecAlta>
+    <Salario>600</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>8</CodVend>
+    <NombVen>RAFAEL MOTORO HOZ</NombVen>
+    <DNI>24151589</DNI>
+    <DirecVen>ALMERIA 22</DirecVen>
+    <Telefono>913259633</Telefono>
+    <FecAlta>2005-09-15T00:00:00+02:00</FecAlta>
+    <Salario>850</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>9</CodVend>
+    <NombVen>CARLOS LOPEZ TORRES</NombVen>
+    <DNI>26543887</DNI>
+    <DirecVen>AV. MADRID 23</DirecVen>
+    <Telefono>913235847</Telefono>
+    <FecAlta>2005-10-15T00:00:00+02:00</FecAlta>
+    <Salario>1000</Salario>
+    <Comisión>8</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>10</CodVend>
+    <NombVen>FATIMA ZAFRA TORRES</NombVen>
+    <DNI>25741697</DNI>
+    <DirecVen>AV. MADRID 4, 1</DirecVen>
+    <Telefono>913226878</Telefono>
+    <FecAlta>2006-01-20T00:00:00+01:00</FecAlta>
+    <Salario>700</Salario>
+    <Comisión>6</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>11</CodVend>
+    <NombVen>ANA ROJAS PEREZ</NombVen>
+    <DNI>23106595</DNI>
+    <DirecVen>ALTAMIRA 20, 3ºB</DirecVen>
+    <Telefono>913761221</Telefono>
+    <FecAlta>2006-02-01T00:00:00+01:00</FecAlta>
+    <Salario>700</Salario>
+    <Comisión>6</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>12</CodVend>
+    <NombVen>TERESA SANCHEZ LOPEZ</NombVen>
+    <DNI>27148963</DNI>
+    <DirecVen>NOGAL 6</DirecVen>
+    <Telefono>913274556</Telefono>
+    <FecAlta>2006-03-19T00:00:00+01:00</FecAlta>
+    <Salario>800</Salario>
+    <Comisión>6</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>13</CodVend>
+    <NombVen>ALEJANDRO BUENO DIAZ</NombVen>
+    <DNI>26003201</DNI>
+    <DirecVen>NOGAL 5</DirecVen>
+    <Telefono>913236594</Telefono>
+    <FecAlta>2006-04-15T00:00:00+02:00</FecAlta>
+    <Salario>600</Salario>
+    <Comisión>6</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>14</CodVend>
+    <NombVen>ANTONIO OLMO GARCIA</NombVen>
+    <DNI>27711498</DNI>
+    <DirecVen>BAEZA 12 , 5ºA</DirecVen>
+    <Telefono>913277415</Telefono>
+    <FecAlta>2006-09-20T00:00:00+02:00</FecAlta>
+    <Salario>900</Salario>
+    <Comisión>6</Comisión>
+    <TiempoParcial>false</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>15</CodVend>
+    <NombVen>LUIS ARRANZ PEÑA</NombVen>
+    <DNI>50003456</DNI>
+    <DirecVen>ROMA, 34, 2ºC</DirecVen>
+    <Telefono>913278394</Telefono>
+    <FecAlta>2006-10-01T00:00:00+02:00</FecAlta>
+    <Salario>800</Salario>
+    <Comisión>3</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>16</CodVend>
+    <NombVen>JAVIER MARTIN LOPEZ</NombVen>
+    <DNI>45670987</DNI>
+    <DirecVen>ALAVA 54, 7º A</DirecVen>
+    <Telefono>916548911</Telefono>
+    <FecAlta>2006-10-15T00:00:00+02:00</FecAlta>
+    <Salario>750</Salario>
+    <Comisión>3</Comisión>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>17</CodVend>
+    <NombVen>CECILIA CASTRO ROS</NombVen>
+    <DNI>34567897</DNI>
+    <DirecVen>AROLAS 34, 6º</DirecVen>
+    <Telefono>916654320</Telefono>
+    <FecAlta>2007-01-20T00:00:00+01:00</FecAlta>
+    <Salario>600</Salario>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>18</CodVend>
+    <NombVen>JOSE PRIETO SANZ</NombVen>
+    <DNI>74566779</DNI>
+    <DirecVen>MAIQUEZ 54, 2º</DirecVen>
+    <Telefono>912347865</Telefono>
+    <FecAlta>2007-01-20T00:00:00+01:00</FecAlta>
+    <Salario>600</Salario>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>19</CodVend>
+    <NombVen>MANUEL BRITO PONS</NombVen>
+    <DNI>32567008</DNI>
+    <DirecVen>ORENSE, 62</DirecVen>
+    <Telefono>913564895</Telefono>
+    <FecAlta>2007-02-05T00:00:00+01:00</FecAlta>
+    <Salario>600</Salario>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+  <Table>
+    <CodVend>20</CodVend>
+    <NombVen>ROSA TORRES ALBA</NombVen>
+    <DNI>50876543</DNI>
+    <DirecVen>LATOSA, 45</DirecVen>
+    <Telefono>917654329</Telefono>
+    <FecAlta>2007-03-15T00:00:00+01:00</FecAlta>
+    <Salario>600</Salario>
+    <TiempoParcial>true</TiempoParcial>
+  </Table>
+</NewDataSet>

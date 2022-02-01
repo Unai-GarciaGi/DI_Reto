@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,8 +18,8 @@ namespace Reto_DI
         {
             InitializeComponent();
         }
+        private const string fichXML = "XML/fichero.xml";
         private string sql;
-        private int cont;
         private MiConexion Conexion = new MiConexion();
         //SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
         //Conexion.AbrirConexion();
@@ -39,6 +40,24 @@ namespace Reto_DI
             dataGridView1.ItemsSource= dt.DefaultView;
              */
             Conexion.CerrarConexion();
+        }
+
+        private void btnGuardar_click(object sender, EventArgs e)
+        {
+            sql = "SELECT * FROM Vendedores";
+            SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
+            Conexion.AbrirConexion();
+            SqlDataAdapter das = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            das.Fill(ds);
+            ds.WriteXml(fichXML);
+        }
+
+        private void btnCargar_Click(object sender, EventArgs e)
+        {
+            DataSet ds = new DataSet();
+            ds.ReadXml(fichXML);
+            dataGridView1.DataSource = ds.Tables[0];
         }
     }
 }
