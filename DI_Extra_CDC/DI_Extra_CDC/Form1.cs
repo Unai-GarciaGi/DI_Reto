@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -57,7 +58,7 @@ namespace DI_Extra_CDC
             }
             for(int i = dt.Columns.Count - 1; i >= 0; i--)
             {
-                if(i != 0 && i != 1 && i != columna)
+                if(i != 0 && i != columna)
                 {
                     dt.Columns.RemoveAt(i);
                 }
@@ -65,7 +66,6 @@ namespace DI_Extra_CDC
             dataGridView1.DataSource = dt;
             dataGridView1.Columns[0].Width = 120;
             dataGridView1.Columns[1].Width = 200;
-            dataGridView1.Columns[2].Width = 200;
         }
 
         private void cargarFilas()
@@ -120,8 +120,19 @@ namespace DI_Extra_CDC
         private void btnXml_Click(object sender, EventArgs e)
         {
             DataTable dt = (DataTable) dataGridView1.DataSource;
-            dt.TableName = "datos";
+            if (comboBox1.SelectedIndex == -1)
+            {
+                dt.TableName = "US";
+            }
+            else
+            {
+                dt.TableName = comboBox1.Text.ToString();
+            }
             dt.WriteXml("datos.xml");
+            /* INTENTO CORRER EL SCRIPT DESDE C#
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.Arguments = string.Format("python3 script.py");
+            */
         }
     }
 }
