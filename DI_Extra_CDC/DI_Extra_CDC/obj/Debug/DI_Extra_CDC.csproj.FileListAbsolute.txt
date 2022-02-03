@@ -11,3 +11,17 @@ C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CopyComplete
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.exe
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.pdb
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.exe.config
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.exe
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.pdb
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Newtonsoft.Json.dll
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Newtonsoft.Json.xml
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.AssemblyReference.cache
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.SuggestedBindingRedirects.cache
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Form1.resources
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Properties.Resources.resources
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.GenerateResource.cache
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CoreCompileInputs.cache
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CopyComplete
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.exe
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.pdb
