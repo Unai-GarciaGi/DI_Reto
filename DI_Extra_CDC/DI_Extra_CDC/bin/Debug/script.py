@@ -28,4 +28,5 @@ lim1 = datos[0]
 lim2 = datos[len(datos) - 1]
 plt.ylim([lim1, lim2 + (lim2 * 0.05)])
 plt.grid()
+plt.savefig('datos.png')
 plt.show()

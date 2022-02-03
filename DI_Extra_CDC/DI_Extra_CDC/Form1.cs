@@ -129,10 +129,10 @@ namespace DI_Extra_CDC
                 dt.TableName = comboBox1.Text.ToString();
             }
             dt.WriteXml("datos.xml");
-            /* INTENTO CORRER EL SCRIPT DESDE C#
-            ProcessStartInfo start = new ProcessStartInfo();
-            start.Arguments = string.Format("python3 script.py");
-            */
+            // INTENTO CORRER EL SCRIPT DESDE C#
+            string strCmdText;
+            strCmdText = "/C python3 script.py";
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
         }
     }
 }
