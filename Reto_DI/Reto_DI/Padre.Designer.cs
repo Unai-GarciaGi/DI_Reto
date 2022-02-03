@@ -35,6 +35,7 @@ namespace Reto_DI
             this.formulario2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formulario3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.milista = new System.Windows.Forms.ToolStripMenuItem();
+            this.formulario4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,8 @@ namespace Reto_DI
             this.formularios.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.formulario1ToolStripMenuItem,
             this.formulario2ToolStripMenuItem,
-            this.formulario3ToolStripMenuItem});
+            this.formulario3ToolStripMenuItem,
+            this.formulario4ToolStripMenuItem});
             this.formularios.Name = "formularios";
             this.formularios.Size = new System.Drawing.Size(82, 20);
             this.formularios.Text = "Formularios";
@@ -63,7 +65,7 @@ namespace Reto_DI
             // 
             this.formulario1ToolStripMenuItem.Name = "formulario1ToolStripMenuItem";
             this.formulario1ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.formulario1ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.formulario1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.formulario1ToolStripMenuItem.Text = "Formulario 1";
             this.formulario1ToolStripMenuItem.Click += new System.EventHandler(this.formulario1ToolStripMenuItem_Click);
             // 
@@ -71,7 +73,7 @@ namespace Reto_DI
             // 
             this.formulario2ToolStripMenuItem.Name = "formulario2ToolStripMenuItem";
             this.formulario2ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
-            this.formulario2ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.formulario2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.formulario2ToolStripMenuItem.Text = "Formulario 2";
             this.formulario2ToolStripMenuItem.Click += new System.EventHandler(this.formulario2ToolStripMenuItem_Click);
             // 
@@ -79,7 +81,7 @@ namespace Reto_DI
             // 
             this.formulario3ToolStripMenuItem.Name = "formulario3ToolStripMenuItem";
             this.formulario3ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.formulario3ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.formulario3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.formulario3ToolStripMenuItem.Text = "Formulario 3";
             this.formulario3ToolStripMenuItem.Click += new System.EventHandler(this.formulario3ToolStripMenuItem_Click);
             // 
@@ -88,6 +90,14 @@ namespace Reto_DI
             this.milista.Name = "milista";
             this.milista.Size = new System.Drawing.Size(94, 20);
             this.milista.Text = "Form Abiertos";
+            // 
+            // formulario4ToolStripMenuItem
+            // 
+            this.formulario4ToolStripMenuItem.Name = "formulario4ToolStripMenuItem";
+            this.formulario4ToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
+            this.formulario4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.formulario4ToolStripMenuItem.Text = "Formulario 4";
+            this.formulario4ToolStripMenuItem.Click += new System.EventHandler(this.formulario4ToolStripMenuItem_Click);
             // 
             // Padre
             // 
@@ -115,5 +125,6 @@ namespace Reto_DI
         private System.Windows.Forms.ToolStripMenuItem formulario2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formulario3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formulario1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formulario4ToolStripMenuItem;
     }
 }

@@ -26,6 +26,7 @@ namespace Reto_DI
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'EmpresaDataSet1.Peliculas' Puede moverla o quitarla según sea necesario.
             rellenarCombo();
             sql = "SELECT CodFac, NombCli, Importe, Fecha FROM Facturas f JOIN Clientes c ON f.CodCli = c.CodCli";
             SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
@@ -90,6 +91,57 @@ namespace Reto_DI
         private void reportViewer1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnPais_Click(object sender, EventArgs e)
+        {
+
+            this.PeliculasTableAdapter.Fill(EmpresaDataSet1.Peliculas, txtPais.Text);
+
+            this.reportViewer1.RefreshReport();
+
+        }
+
+        private void btnTransac_Click(object sender, EventArgs e)
+        {
+            // 'Se tienen que realizar las dos o ninguna
+            //' Apertura de la conexión
+            double result = 0;
+            Conexion.AbrirConexion();
+            SqlCommand comando = new SqlCommand();
+            SqlTransaction transaccion;
+
+            //' Inicio de la transaccion
+            transaccion = Conexion.pConexion.BeginTransaction();
+            comando.Connection = Conexion.pConexion;
+            comando.Transaction = transaccion;
+
+            try
+            {
+                comando.CommandText = "SELECT Precio FROM Peliculas WHERE CodPelicula = 101";
+                result = Convert.ToDouble(comando.ExecuteScalar());
+                MessageBox.Show(result.ToString(), "Valor inicial");
+
+                comando.CommandText = "UPDATE Peliculas SET Precio = Precio + 5  WHERE CodPelicula = 101";
+                comando.ExecuteNonQuery();
+
+                //'PROVOCO UN ERROR. La tabla Productos no existe
+                comando.CommandText = "UPDATE Productos SET UnitPrice = UnitPrice + 3.99  WHERE ProductID = 4";
+                comando.ExecuteNonQuery();
+
+                //' Finalización exitosa de la transacción
+                transaccion.Commit();
+            }
+            catch (Exception ex)
+            {
+                //' Cancela toda la transacción
+                transaccion.Rollback();
+                MessageBox.Show("Se ha producido un error");
+
+                comando.CommandText = "SELECT Precio FROM Peliculas WHERE CodPelicula = 101";
+                result = Convert.ToDouble(comando.ExecuteScalar());
+                MessageBox.Show(result.ToString(), "Compruebo si es igual al valor inicial");
+            }
         }
     }
 }

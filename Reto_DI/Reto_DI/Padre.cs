@@ -19,6 +19,7 @@ namespace Reto_DI
         public static Form1 f1 = new Form1(); //De esta manera se ve en los demás formularios
         private Form2 f2 = new Form2();
         private Form3 f3 = new Form3();
+        private Form4 f4 = new Form4();
         private void Padre_Load(object sender, EventArgs e)
         {
             this.IsMdiContainer = true;
@@ -26,6 +27,7 @@ namespace Reto_DI
             f1.MdiParent = this;
             f2.MdiParent = this;
             f3.MdiParent = this;
+            f4.MdiParent = this;
             f1.WindowState = FormWindowState.Maximized;
             f2.WindowState = FormWindowState.Maximized;
             f3.WindowState = FormWindowState.Maximized;
@@ -59,6 +61,13 @@ namespace Reto_DI
         private void Padre_MdiChildActivate(object sender, EventArgs e)
         {
             
+        }
+
+        private void formulario4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            f4.Show();
+            f4.Activate();
+            this.Bounds = f4.Bounds;
         }
     }
 }

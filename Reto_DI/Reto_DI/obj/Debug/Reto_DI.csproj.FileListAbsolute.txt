@@ -141,3 +141,8 @@ C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\zh-CHS\Micro
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form3.resources
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\RdlCompile.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\RdlCompile.compiled
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\Reto_DI\Reto_DI\obj\Debug\Reto_DI.Form4.resources
