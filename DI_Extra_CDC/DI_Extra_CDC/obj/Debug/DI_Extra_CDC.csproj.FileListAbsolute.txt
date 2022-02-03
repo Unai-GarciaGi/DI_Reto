@@ -1,0 +1,13 @@
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.exe.config
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.exe
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\DI_Extra_CDC.pdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Form1.resources
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.exe
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.pdb
