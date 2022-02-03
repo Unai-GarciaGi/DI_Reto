@@ -22,6 +22,8 @@ namespace Reto_DI
         private const string fichXML = "XML/fichero.xml";
         private string sql;
         private MiConexion Conexion = new MiConexion();
+        private DataSet ds;
+        private SqlDataAdapter das;
         //SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
         //Conexion.AbrirConexion();
         private Boolean cambioBuscar;
@@ -35,8 +37,8 @@ namespace Reto_DI
             sql = "SELECT CodVend, NombVen, DirecVen, Telefono, Salario FROM Vendedores";
             SqlCommand cmd = new SqlCommand(sql, Conexion.pConexion);
             Conexion.AbrirConexion();
-            SqlDataAdapter das = new SqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
+            das = new SqlDataAdapter(cmd);
+            ds = new DataSet();
             das.Fill(ds, "tabla");
             dataGridView1.DataSource = ds.Tables[0];
             /*
@@ -45,6 +47,8 @@ namespace Reto_DI
             das.Fill(dt);
             dataGridView1.ItemsSource= dt.DefaultView;
              */
+            SqlCommandBuilder cmb = new SqlCommandBuilder(das);
+            ds.Tables[0].PrimaryKey = new DataColumn[] { ds.Tables[0].Columns["CodVend"] };
             Conexion.CerrarConexion();
         }
 
@@ -63,39 +67,7 @@ namespace Reto_DI
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            //NO SE COMO FUNCIONA ESTO TENGO QUE PREGUNTAR
-            OleDbConnection conn = null;
-            conn = new OleDbConnection("Server=LOCALHOST;DataBase=Empresa;Integrated Security=true");
-            OleDbDataAdapter adapter = new OleDbDataAdapter();
-            //Creo el comando
-            adapter.UpdateCommand = new OleDbCommand("UPDATE Vendedores SET NombVen = ?, DirecVen = ?, Telefono = ? WHERE CodVend = ?", conn);
-            //Añado los parámetros
-            adapter.UpdateCommand.Parameters.Clear();
-            OleDbParameter pNombre = new OleDbParameter("NombVen", -1);
-            pNombre.OleDbType = OleDbType.VarChar;
-            pNombre.SourceColumn = "NombVen";
-            pNombre.ParameterName = "NombVen";
-            adapter.UpdateCommand.Parameters.Add(pNombre);
-            OleDbParameter pDirec = new OleDbParameter("DirecVen", -1);
-            pNombre.OleDbType = OleDbType.VarChar;
-            pNombre.SourceColumn = "DirecVen";
-            pNombre.ParameterName = "DirecVen";
-            adapter.UpdateCommand.Parameters.Add(pDirec);
-            OleDbParameter pTelefono = new OleDbParameter("Telefono", -1);
-            pNombre.OleDbType = OleDbType.VarChar;
-            pNombre.SourceColumn = "Telefono";
-            pNombre.ParameterName = "Telefono";
-            adapter.UpdateCommand.Parameters.Add(pTelefono);
-            OleDbParameter pCod = new OleDbParameter("CodVend", -1);
-            pNombre.OleDbType = OleDbType.Integer;
-            pNombre.SourceColumn = "CodVend";
-            pNombre.ParameterName = "CodVend";
-            adapter.UpdateCommand.Parameters.Add(pCod);
-            //Inserto el adaptador en el commandBuilder
-            OleDbCommandBuilder cb = new OleDbCommandBuilder(adapter);
-            conn.Open();
-            adapter.Update((DataTable) dataGridView1.DataSource);
-            conn.Close();
+            das.Update(ds, "tabla");
         }
 
         private void btnAddX_Click(object sender, EventArgs e)
@@ -138,7 +110,7 @@ namespace Reto_DI
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnBuscarNombre_Click(object sender, EventArgs e)
         {
             /*
              CambioBuscar se actualiza cada vez que cambia el texto
@@ -190,6 +162,19 @@ namespace Reto_DI
         private void txtNombreBuscar_TextChanged(object sender, EventArgs e)
         {
             cambioBuscar = true;
+        }
+
+        private void btnBorrarVend_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ds.Tables[0].Rows.Find(txtBorrar.Text).Delete();
+                das.Update(ds, "tabla");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

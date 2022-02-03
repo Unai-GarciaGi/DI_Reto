@@ -46,7 +46,7 @@ namespace Reto_DI
             this.btnFila = new System.Windows.Forms.Button();
             this.txtFila = new System.Windows.Forms.TextBox();
             this.txtNombreBuscar = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBuscarNombre = new System.Windows.Forms.Button();
             this.empresaDataSet1 = new Reto_DI.EmpresaDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empresaDataSet)).BeginInit();
@@ -135,12 +135,13 @@ namespace Reto_DI
             this.btnBorrarVend.TabIndex = 6;
             this.btnBorrarVend.Text = "Borrar Vendedor";
             this.btnBorrarVend.UseVisualStyleBackColor = true;
+            this.btnBorrarVend.Click += new System.EventHandler(this.btnBorrarVend_Click);
             // 
             // txtBorrar
             // 
             this.txtBorrar.Location = new System.Drawing.Point(513, 15);
             this.txtBorrar.Name = "txtBorrar";
-            this.txtBorrar.Size = new System.Drawing.Size(178, 20);
+            this.txtBorrar.Size = new System.Drawing.Size(26, 20);
             this.txtBorrar.TabIndex = 7;
             // 
             // txtNombre
@@ -182,15 +183,15 @@ namespace Reto_DI
             this.txtNombreBuscar.TabIndex = 12;
             this.txtNombreBuscar.TextChanged += new System.EventHandler(this.txtNombreBuscar_TextChanged);
             // 
-            // button1
+            // btnBuscarNombre
             // 
-            this.button1.Location = new System.Drawing.Point(411, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Buscar Nombre";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnBuscarNombre.Location = new System.Drawing.Point(411, 101);
+            this.btnBuscarNombre.Name = "btnBuscarNombre";
+            this.btnBuscarNombre.Size = new System.Drawing.Size(95, 23);
+            this.btnBuscarNombre.TabIndex = 13;
+            this.btnBuscarNombre.Text = "Buscar Nombre";
+            this.btnBuscarNombre.UseVisualStyleBackColor = true;
+            this.btnBuscarNombre.Click += new System.EventHandler(this.btnBuscarNombre_Click);
             // 
             // empresaDataSet1
             // 
@@ -202,7 +203,7 @@ namespace Reto_DI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBuscarNombre);
             this.Controls.Add(this.txtNombreBuscar);
             this.Controls.Add(this.txtFila);
             this.Controls.Add(this.btnFila);
@@ -246,7 +247,7 @@ namespace Reto_DI
         private System.Windows.Forms.Button btnFila;
         private System.Windows.Forms.TextBox txtFila;
         private System.Windows.Forms.TextBox txtNombreBuscar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBuscarNombre;
         private EmpresaDataSet empresaDataSet1;
     }
 }
