@@ -25,3 +25,4 @@ L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CoreCo
 L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.csproj.CopyComplete
 L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.exe
 L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.pdb
+C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Form2.resources

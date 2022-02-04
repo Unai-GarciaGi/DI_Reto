@@ -154,5 +154,13 @@ namespace DI_Extra_CDC
             start.RedirectStandardOutput = true;
             Process p = Process.Start(start);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new Form2();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+        }
     }
 }
