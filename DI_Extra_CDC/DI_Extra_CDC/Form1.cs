@@ -74,10 +74,20 @@ namespace DI_Extra_CDC
             //Coge todo lo que hay en el string como texto plano, ignorando caracteres escape y otros simbolos
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(filejson, typeof(DataTable));
             String fecha1 = dt.Rows[0].ItemArray[0].ToString();
-            comboBox1.Items.Add(dt.Rows[0].ItemArray[1].ToString());
+            string[] lista = new string[0];
             for(int i = 1; i < dt.Rows.Count && dt.Rows[i].ItemArray[0].ToString().Equals(fecha1); i++)
             {
-                comboBox1.Items.Add(dt.Rows[i].ItemArray[1].ToString());
+                //Voy creando uno nuevo hasta que llegue al tamaño que quiero
+                lista = new string[i+1];
+            }
+            for(int i = 0; i < dt.Rows.Count && dt.Rows[i].ItemArray[0].ToString().Equals(fecha1); i++)
+            {
+                lista[i] = dt.Rows[i].ItemArray[1].ToString();
+            }
+            Array.Sort(lista);
+            for(int i = 0; i < lista.Length; i++)
+            {
+                comboBox1.Items.Add(lista[i]);
             }
         }
 
@@ -86,9 +96,15 @@ namespace DI_Extra_CDC
             string filejson = File.ReadAllText(@"datos.json");
             //Coge todo lo que hay en el string como texto plano, ignorando caracteres escape y otros simbolos
             DataTable dt = (DataTable)JsonConvert.DeserializeObject(filejson, typeof(DataTable));
+            string[] lista = new string[dt.Columns.Count -2];
             for (int i = 2; i < dt.Columns.Count; i++)
             {
-                comboBox2.Items.Add(dt.Columns[i].ToString());
+                lista[i - 2] = dt.Columns[i].ToString();
+            }
+            Array.Sort(lista);
+            for(int i = 0; i < lista.Length; i++)
+            {
+                comboBox2.Items.Add(lista[i]);
             }
         }
 
@@ -102,7 +118,7 @@ namespace DI_Extra_CDC
             {
                 cargarJson(comboBox1.Text.ToString(), comboBox2.SelectedIndex + 2);
             }
-            
+            label2.Text = "Demografía: " + comboBox1.Text.ToString();
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -115,6 +131,7 @@ namespace DI_Extra_CDC
             {
                 cargarJson(comboBox1.Text.ToString(), comboBox2.SelectedIndex + 2);
             }
+            label3.Text = "Datos: " + comboBox1.Text.ToString();
         }
 
         private void btnXml_Click(object sender, EventArgs e)
@@ -130,9 +147,6 @@ namespace DI_Extra_CDC
             }
             dt.WriteXml("datos.xml");
             // INTENTO CORRER EL SCRIPT DESDE C#
-            /*string strCmdText;
-            strCmdText = "/C python3 script.py";
-            System.Diagnostics.Process.Start("CMD.exe", strCmdText);*/
             ProcessStartInfo start = new ProcessStartInfo();
             start.FileName = "python3";
             start.Arguments = string.Format("script.py");
