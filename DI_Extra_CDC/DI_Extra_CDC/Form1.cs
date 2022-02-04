@@ -157,8 +157,11 @@ namespace DI_Extra_CDC
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Oculto primero la ventana
             this.Hide();
+            //Creo el segundo formulario
             var form2 = new Form2();
+            //Añado el cerrar de este formulario al cerrar del segundo y lo muestro
             form2.Closed += (s, args) => this.Close();
             form2.Show();
         }

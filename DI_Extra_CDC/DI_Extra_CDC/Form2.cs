@@ -43,7 +43,11 @@ namespace DI_Extra_CDC
             {
                 string latitud = textBox1.Text;
                 string longitud = textBox2.Text;
-                System.Diagnostics.Process.Start("https://www.google.es/maps/@" +latitud + "," + longitud+"?hl=es");
+                //Reemplazo la coma por el punto
+                latitud = latitud.Replace(",", ".");
+                longitud = longitud.Replace(",", ".");
+                //Lanzo el proceso con el enlace
+                System.Diagnostics.Process.Start("https://www.google.com/maps/search/?api=1&query=" + latitud+","+longitud);
             }
         }
     }
