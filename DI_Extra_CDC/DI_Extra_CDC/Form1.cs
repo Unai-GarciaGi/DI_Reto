@@ -130,9 +130,15 @@ namespace DI_Extra_CDC
             }
             dt.WriteXml("datos.xml");
             // INTENTO CORRER EL SCRIPT DESDE C#
-            string strCmdText;
+            /*string strCmdText;
             strCmdText = "/C python3 script.py";
-            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText);*/
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = "python3";
+            start.Arguments = string.Format("script.py");
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+            Process p = Process.Start(start);
         }
     }
 }
