@@ -31,3 +31,10 @@ C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Mi
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\EPPlus.xml
 C:\Users\Admin\Source\Repos\Retos\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\EPPlus.dll
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\System.ComponentModel.Annotations.dll
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\EPPlus.xml
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Form2.resources
+L:\DI-SGE\DI_Reto\DI_Extra_CDC\DI_Extra_CDC\obj\Debug\DI_Extra_CDC.Form3.resources

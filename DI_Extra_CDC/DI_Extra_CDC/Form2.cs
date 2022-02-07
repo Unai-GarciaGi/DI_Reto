@@ -114,5 +114,18 @@ namespace DI_Extra_CDC
             //Inicio excel
             System.Diagnostics.Process.Start("datos.xlsx");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+                //Oculto primero la ventana
+                this.Hide();
+                //Creo el segundo formulario
+                var form3 = new Form3();
+                //Añado el cerrar de este formulario al cerrar del segundo y lo muestro
+                form3.Closed += (s, args) => this.Close();
+                form3.Show();
+            
+        }
     }
 }

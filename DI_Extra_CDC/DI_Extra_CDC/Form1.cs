@@ -148,7 +148,7 @@ namespace DI_Extra_CDC
             dt.WriteXml("datos.xml");
             // INTENTO CORRER EL SCRIPT DESDE C#
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = "python3";
+            start.FileName = "python";
             start.Arguments = string.Format("script.py");
             start.UseShellExecute = false;
             start.RedirectStandardOutput = true;
