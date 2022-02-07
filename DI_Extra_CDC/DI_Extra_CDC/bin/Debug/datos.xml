@@ -1,143 +1,147 @@
 <?xml version="1.0" standalone="yes"?>
 <DocumentElement>
-  <Ages__x003C_5yrs>
+  <US>
+    <date>2022-02-06T00:00:00+01:00</date>
+    <series_complete_yes>212806521</series_complete_yes>
+  </US>
+  <US>
+    <date>2022-02-05T00:00:00+01:00</date>
+    <series_complete_yes>212806521</series_complete_yes>
+  </US>
+  <US>
+    <date>2022-02-04T00:00:00+01:00</date>
+    <series_complete_yes>212792035</series_complete_yes>
+  </US>
+  <US>
     <date>2022-02-03T00:00:00+01:00</date>
-    <administered_dose1>26794</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212699185</series_complete_yes>
+  </US>
+  <US>
     <date>2022-02-02T00:00:00+01:00</date>
-    <administered_dose1>26794</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212589373</series_complete_yes>
+  </US>
+  <US>
     <date>2022-02-01T00:00:00+01:00</date>
-    <administered_dose1>26790</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212454528</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-31T00:00:00+01:00</date>
-    <administered_dose1>26362</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212311512</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-30T00:00:00+01:00</date>
-    <administered_dose1>25709</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212168648</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-29T00:00:00+01:00</date>
-    <administered_dose1>25502</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212106878</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-28T00:00:00+01:00</date>
-    <administered_dose1>25089</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>212005979</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-27T00:00:00+01:00</date>
-    <administered_dose1>24284</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211815495</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-26T00:00:00+01:00</date>
-    <administered_dose1>23587</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211655202</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-25T00:00:00+01:00</date>
-    <administered_dose1>22937</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211489981</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-24T00:00:00+01:00</date>
-    <administered_dose1>22250</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211326613</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-23T00:00:00+01:00</date>
-    <administered_dose1>21649</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211175981</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-22T00:00:00+01:00</date>
-    <administered_dose1>21483</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211115283</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-21T00:00:00+01:00</date>
-    <administered_dose1>21105</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>211037737</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-20T00:00:00+01:00</date>
-    <administered_dose1>20390</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210886195</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-19T00:00:00+01:00</date>
-    <administered_dose1>19700</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210719381</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-18T00:00:00+01:00</date>
-    <administered_dose1>19035</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210542330</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-17T00:00:00+01:00</date>
-    <administered_dose1>18393</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210362886</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-16T00:00:00+01:00</date>
-    <administered_dose1>17892</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210227708</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-15T00:00:00+01:00</date>
-    <administered_dose1>17758</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210171413</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-14T00:00:00+01:00</date>
-    <administered_dose1>17321</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>210087526</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-13T00:00:00+01:00</date>
-    <administered_dose1>16675</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209919080</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-12T00:00:00+01:00</date>
-    <administered_dose1>16005</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209736979</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-11T00:00:00+01:00</date>
-    <administered_dose1>15432</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209543112</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-10T00:00:00+01:00</date>
-    <administered_dose1>14823</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209347588</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-09T00:00:00+01:00</date>
-    <administered_dose1>14362</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209163075</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-08T00:00:00+01:00</date>
-    <administered_dose1>14200</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>209089930</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-07T00:00:00+01:00</date>
-    <administered_dose1>13870</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>208920568</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-06T00:00:00+01:00</date>
-    <administered_dose1>13464</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>208682757</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-05T00:00:00+01:00</date>
-    <administered_dose1>13043</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>208475573</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-04T00:00:00+01:00</date>
-    <administered_dose1>12629</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>208268355</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-03T00:00:00+01:00</date>
-    <administered_dose1>12381</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
+    <series_complete_yes>208059384</series_complete_yes>
+  </US>
+  <US>
     <date>2022-01-02T00:00:00+01:00</date>
-    <administered_dose1>12185</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
-    <date>2022-01-01T00:00:00+01:00</date>
-    <administered_dose1>12108</administered_dose1>
-  </Ages__x003C_5yrs>
-  <Ages__x003C_5yrs>
-    <date>2021-12-31T00:00:00+01:00</date>
-    <administered_dose1>12099</administered_dose1>
-  </Ages__x003C_5yrs>
+    <series_complete_yes>207868191</series_complete_yes>
+  </US>
 </DocumentElement>
