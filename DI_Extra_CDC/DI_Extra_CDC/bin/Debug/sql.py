@@ -60,3 +60,8 @@ try:
 except my.Error as e :
 	print("Error: unable to fetch data")
 	print(f"Error: {e}")
+#Apuntes interesantes:
+#Las filas son también diccionarios, por lo que se puede hacer row['company'] y funcionaría igual
+#Se puede imprimir directamente un resultado con resultado = cursor.fetchone() y luego print(resultado)
+#El formato resultante sería {'campo' : 'valor', ...}
+#Se puede quitar el auto-commit (al menos en mariadb) con conexion.autocommit(false)
