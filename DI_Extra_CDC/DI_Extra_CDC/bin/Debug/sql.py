@@ -64,4 +64,12 @@ except my.Error as e :
 #Las filas son también diccionarios, por lo que se puede hacer row['company'] y funcionaría igual
 #Se puede imprimir directamente un resultado con resultado = cursor.fetchone() y luego print(resultado)
 #El formato resultante sería {'campo' : 'valor', ...}
-#Se puede quitar el auto-commit (al menos en mariadb) con conexion.autocommit(false)
+#Se puede quitar el auto-commit (al menos en mariadb) con conexion.autocommit = False
+#Esto permite hacer commit() y rollback() para implementar transacciones correctamente
+#Otra manera de hacer el execute sería:
+#sql = "SELECT company, first_name, last_name, city FROM customers WHERE job_title = ?"
+#cursor.execute(sql, ('OWNER'))
+#De esta manera podemos usar parametros. Todos los parametros que usemos deben ir entre parentesis
+#En el segundo argumento del metodo execute()
+#Si hacemos ET.dump(root) podemos ver que tiene root dentro y su estructura 
+#(podemos ver la del elemento que queramos)
