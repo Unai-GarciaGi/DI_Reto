@@ -1,3 +1,4 @@
+# coding=UTF-8
 import json as j
 
 #Creo un objeto de tipo file
